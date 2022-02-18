@@ -38,6 +38,14 @@ export default {
     '@nuxt/content'
   ],
 
+  /*
+   ** Content module configuration
+   ** See https://content.nuxtjs.org/configuration
+   */
+   content: {
+    nestedProperties: ['author.name']
+  },
+
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   }
